@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f8fafc;
+}
+
+input[type="range"] {
+  cursor: pointer;
+}
+
+/* Smooth transitions for sidebar nav */
+aside button {
+  transition: all 0.15s ease;
+}
